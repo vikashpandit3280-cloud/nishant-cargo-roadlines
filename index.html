@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nishant Cargo Roadlines | Cargo & Logistics</title>
+  <meta name="description" content="Nishant Cargo Roadlines - professional cargo transportation and logistics services across India.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="brand-icon">🚛</span><span><b>Nishant Cargo</b><small>ROADLINES & LOGISTICS</small></span></a>
+    <button class="menu" id="menuBtn">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a><a href="#booking">Book Load</a><a href="#services">Services</a>
+      <a href="#fleet">Fleet</a><a href="#routes">Routes</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-call" href="tel:9087876222">Call Now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="pill">🚚 PAN INDIA TRANSPORTATION</span>
+    <h1>Your Cargo.<br><span>Our Responsibility.</span></h1>
+    <p>Reliable truck transportation and cargo delivery solutions connecting businesses across major cities of India.</p>
+    <div class="hero-actions"><a class="btn primary" href="#booking">📦 Book Your Load</a><a class="btn light" href="tel:9087876222">📞 Talk to Us</a></div>
+    <div class="stats"><div><b>Pan India</b><small>Service Coverage</small></div><div><b>24/7</b><small>Support</small></div><div><b>8+</b><small>Truck Types</small></div><div><b>Safe</b><small>Cargo Handling</small></div></div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="container">
+    <div class="section-head"><span>QUICK BOOKING</span><h2>Find a Truck & Get an Estimate</h2><p>Enter your loading and delivery details. Final freight is confirmed by our office.</p></div>
+    <div class="booking-card">
+      <div class="booking-title"><div><h3>🚛 Cargo Booking Request</h3><p>Send your requirement directly to our WhatsApp.</p></div><strong>● Available for Booking</strong></div>
+      <form id="bookingForm" class="form-grid">
+        <label>Loading City<select id="fromCity" required></select></label>
+        <label>Delivery City<select id="toCity" required></select></label>
+        <label>Truck Type<select id="truckType" required></select></label>
+        <label>Approx. Weight (Ton)<input id="weight" type="number" min="1" required placeholder="e.g. 10"></label>
+        <label>Your Name<input id="customerName" required placeholder="Enter your name"></label>
+        <label>Mobile Number<input id="customerPhone" required maxlength="10" placeholder="10 digit mobile"></label>
+        <label class="wide">Pickup / Loading Address<input id="pickupAddress" required placeholder="Enter loading address"></label>
+        <label class="wide">Additional Requirement<input id="requirement" placeholder="Goods details, special requirement..."></label>
+        <div class="wide booking-bottom"><div id="rateResult">Estimated rate will appear here.</div><button class="btn secondary" type="button" id="rateBtn">Calculate Estimate</button><button class="btn primary" type="submit">Send Booking Request</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="container"><div class="section-head"><span>WHAT WE DO</span><h2>Our Logistics Services</h2><p>Transportation solutions for businesses, traders and cargo requirements.</p></div>
+    <div class="cards">
+      <article><i>🚛</i><h3>Full Truck Load</h3><p>Dedicated trucks for large cargo shipments and long-distance transportation.</p></article>
+      <article><i>📦</i><h3>Part Load</h3><p>Cost-effective transportation for smaller shipments and commercial cargo.</p></article>
+      <article><i>🏭</i><h3>Industrial Cargo</h3><p>Reliable movement of industrial and commercial goods across major routes.</p></article>
+      <article><i>🛣️</i><h3>Long Distance</h3><p>Pan India routes connecting important business and industrial locations.</p></article>
+      <article><i>🔒</i><h3>Safe Transportation</h3><p>Focused on secure handling, communication and dependable delivery.</p></article>
+      <article><i>📞</i><h3>24/7 Support</h3><p>Quick support for booking, route and transportation requirements.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="fleet" id="fleet">
+  <div class="container"><div class="section-head"><span>OUR FLEET</span><h2>Choose Your Truck</h2><p>Different vehicle categories for different cargo requirements.</p></div>
+    <div class="truck-grid" id="truckGrid"></div>
+    <p class="note">*Displayed rates are indicative demo rates only. Final freight depends on route, cargo, weight, tolls and market conditions.</p>
+  </div>
+</section>
+
+<section class="routes" id="routes">
+  <div class="container"><div class="section-head dark"><span>NETWORK</span><h2>Major Cities We Serve</h2><p>Connecting important business and industrial destinations across India.</p></div><div class="route-grid" id="routeGrid"></div></div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-grid"><div class="about-photo"></div><div><span class="eyebrow">ABOUT NISHANT CARGO ROADLINES</span><h2>Moving India, One Load at a Time.</h2>
+    <p>Nishant Cargo Roadlines provides transportation and logistics solutions for customers who need dependable cargo movement across India.</p>
+    <p>Our focus is simple — suitable vehicles, transparent communication and reliable transportation support.</p>
+    <div class="features"><b>✓ Pan India Routes</b><b>✓ Multiple Truck Types</b><b>✓ Quick Booking</b><b>✓ Customer Support</b><b>✓ Commercial Cargo</b><b>✓ Flexible Solutions</b></div>
+  </div></div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container"><div class="section-head"><span>CONTACT US</span><h2>Let's Move Your Cargo</h2><p>Contact Nishant Cargo Roadlines for booking and transportation requirements.</p></div>
+    <div class="contact-grid">
+      <div class="info"><h3>Company Information</h3><p>👤 <small>Owner</small><b>Mr. Monu Kaushik</b></p><p>📞 <small>Mobile</small><b><a href="tel:9087876222">9087876222</a></b></p><p>✉️ <small>Email</small><b><a href="mailto:kaushikdeepak453@gmail.com">kaushikdeepak453@gmail.com</a></b></p><p>📍 <small>Primary Loading Location</small><b>Bangalore, India</b></p><div class="hero-actions"><a class="btn primary" href="tel:9087876222">📞 Call Now</a><a class="btn whatsapp" target="_blank" href="https://wa.me/919087876222">💬 WhatsApp</a></div></div>
+      <form class="contact-form" id="contactForm"><h3>Send an Enquiry</h3><p>Tell us about your transportation requirement.</p><input id="contactName" required placeholder="Your Name"><input id="contactPhone" required maxlength="10" placeholder="Mobile Number"><input id="contactRoute" required placeholder="Loading City → Delivery City"><textarea id="contactMessage" required placeholder="Write your requirement..."></textarea><button class="btn primary" type="submit">Send Enquiry</button></form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer-grid"><div><div class="brand"><span class="brand-icon">🚛</span><span><b>Nishant Cargo</b><small>ROADLINES & LOGISTICS</small></span></div><p>Professional cargo transportation and logistics solutions across major Indian cities.</p></div><div><h4>Quick Links</h4><a href="#booking">Book Load</a><a href="#services">Services</a><a href="#fleet">Fleet</a><a href="#contact">Contact</a></div><div><h4>Contact</h4><p>Mr. Monu Kaushik</p><p>9087876222</p><p>kaushikdeepak453@gmail.com</p><p>Bangalore, India</p></div></div><div class="copyright">© <span id="year"></span> Nishant Cargo Roadlines. All Rights Reserved.</div></footer>
+<div class="floating"><a class="whatsapp" target="_blank" href="https://wa.me/919087876222">💬</a><a class="phone" href="tel:9087876222">📞</a></div>
+<script src="script.js"></script>
+</body>
+</html>
